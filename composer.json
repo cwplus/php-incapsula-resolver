@@ -1,0 +1,31 @@
+{
+	"name" : "anastaszor/php-incapsula-resolver",
+	"description" : "A library to resolve incapsula's challenge to reach protected website they provide protection for",
+	"type" : "library",
+	"homepage" : "https://github.com/Anastaszor/incapsula-resolver",
+	"license" : "Public Domain",
+	"authors" : [{
+			"name" : "Anastaszor",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/Anastaszor/incapsula-resolver/issues",
+		"source" : "https://github.com/Anastaszor/incapsula-resolver"
+	},
+	"keywords" : [
+		"incapsula",
+		"challenge",
+		"protected",
+		"web",
+		"scraping"
+	],
+	"require" : {
+		"anastaszor/simple-html-dom" : "~0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Anastaszor\\Incapsula\\" : "src"
+		}
+	}
+}

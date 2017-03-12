@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "94f63f02b6caaea48c969e9ebcd21748",
+    "packages": [
+        {
+            "name": "anastaszor/simple-html-dom",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Anastaszor/SimpleHtmlDom.git",
+                "reference": "be641e12876e9317afe1dd57b18e775500a52485"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Anastaszor/SimpleHtmlDom/zipball/be641e12876e9317afe1dd57b18e775500a52485",
+                "reference": "be641e12876e9317afe1dd57b18e775500a52485",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anastaszor",
+                    "homepage": "https://github.com/Anastaszor/SimpleHtmlDom",
+                    "role": "developper"
+                },
+                {
+                    "name": "Yousuke Kamura",
+                    "role": "developper"
+                },
+                {
+                    "name": "Vadim Voituk",
+                    "role": "Developper"
+                },
+                {
+                    "name": "Antcs",
+                    "role": "Developper"
+                },
+                {
+                    "name": "Jose Solorzano",
+                    "homepage": "https://sourceforge.net/projects/php-html",
+                    "role": "Developper"
+                },
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com",
+                    "homepage": "http://sourceforge.net/projects/simplehtmldom/",
+                    "role": "Developper"
+                }
+            ],
+            "description": "An nth fork of the simple_html_dom Library with composer autoload compliance",
+            "homepage": "https://github.com/Anastaszor/SimpleHtmlDom",
+            "keywords": [
+                "simple html dom node composer autoload"
+            ],
+            "time": "2016-04-18 22:03:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
